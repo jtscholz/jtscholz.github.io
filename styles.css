@@ -1,19 +1,24 @@
 body {
-    background: lightblue;
+    background:  lightcyan;
     font-family: Arial, Helvetica, sans-serifl
 }
 .assignment {
     display: flex;
     padding: 10px;
     margin: 10px;
-    background: lightgrey;
+    background: lavender;
 }
 .assignment img {
     width: 200px;
-    padding: 10px;
+    border: 2px solid lavenderblush;
+    margin-right: 20px;
 }
 h1{
-    color: lightcyan;
+    color: lightskyblue;
     text-align: center;
+}
+a {
+    text-decoration:none;
+    color: rgb(49, 86, 116);
 }
 
