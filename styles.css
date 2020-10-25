@@ -2,16 +2,26 @@ body {
     background:  lightcyan;
     font-family: Arial, Helvetica, sans-serifl
 }
-.assignment {
+.assignments {
     display: flex;
+    flex-wrap: wrap;
+}
+.assignment {
+    width: 30%;
     padding: 10px;
     margin: 10px;
+    margin-bottom: 30px;
     background: lavender;
+    border-radius: 5px;
+    box-shadow: 5px 8px #401201;
 }
 .assignment img {
     width: 200px;
     border: 2px solid lavenderblush;
     margin-right: 20px;
+    border-radius: 5px;
+    display: block;
+    margin:auto;
 }
 h1{
     color: lightskyblue;
